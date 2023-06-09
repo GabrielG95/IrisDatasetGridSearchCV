@@ -9,9 +9,6 @@ from torch import nn
 import torch
 import copy
 
-# device agnostic code
-device = torch.device('mps')
-
 # load data and extract data we want to use
 iris_data = datasets.load_iris()
 
